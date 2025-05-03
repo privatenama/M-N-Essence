@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;  /* Center secara mendatar */
+  align-items: center;      /* Center secara menegak */
+  height: 100px;            /* Tinggi header, boleh ubah */
+  background-color: #f5f5f5;
+}
+
+.logo {
+  width: 150px;
+}

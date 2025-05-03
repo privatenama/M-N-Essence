@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.category-title h2 {
+  text-align: center;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+button {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #128C7E;
+}
+
+/* WhatsApp Button Styling */
+.whatsapp-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo and text */
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E;
+}
+
+.whatsapp-logo {
+  width: 20px; /* Adjust the size of the logo */
+  height: 20px;
+  object-fit: contain;
+}

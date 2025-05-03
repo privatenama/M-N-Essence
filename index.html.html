@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M&N Essence Shop</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS within the HTML -->
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Palatino Linotype', sans-serif;
+      background-color: #5c4033; /* Background hitam gelap */
+      color: #fff;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Header */
+    .header {
+      background-color: #000;
+      padding: 20px 0;
+    }
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      max-width: 300px;
+    }
+
+    .brand-name {
+      font-family: 'MingLiU-ExtB', bold ;
+      font-size: 3em;
+      color: #d4af37; /* Emas */
+    }
+
+    .tagline {
+      font-size: 1.2em;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+
+    .whatsapp-links {
+      margin-top: 10px;
+    }
+
+    .whatsapp-btn {
+      background-color: #25d366;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 1.2em;
+      margin: 5px;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #128c7e;
+    }
+
+    /* Section Styling */
+    h2.category-title {
+      color: #d4af37;
+      font-size: 2em;
+      margin: 20px 0;
+    }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 50px 20px;
+  max-width: 1200px;        /* Lebar maksima grid */
+  margin: 0 auto;           /* Pusatkan grid */
+  justify-content: center;  /* Jamin grid rata di tengah */
+}
+
+    }
+
+    .product {
+      background-color: #3e2a47; /* Coklat gelap */
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .product-img {
+      width: 90%;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      color: #d4af37;
+      margin-top: 20px;
+    }
+
+    .product p {
+      color: #fff;
+      font-size: 1.2em;
+      margin-top: 5px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #000;
+      padding: 10px 0;
+      color: #d4af37;
+    }
+
+    footer p {
+      font-size: 1em;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      .product-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .whatsapp-btn {
+        font-size: 1em;
+        padding: 8px 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .brand-name {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-container">
+      <img src="images/logo.png" alt="M&N Logo" class="logo" />
+      <h1 class="brand-name">M&N Essence Shop</h1>
+      <h2 class="tagline">Signature Blend</h2>
+    </div>
+    <div class="whatsapp-links">
+      <a href="https://wa.me/01110082313" class="whatsapp-btn">Whatsapp Mr. Aidi</a>
+      <a href="https://wa.me/0173376504" class="whatsapp-btn">Whatsapp Mrs. Nelly</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Perfume Men -->
+    <section>
+      <h2 class="category-title">Perfume Men</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="images/meidy-essence.jpg" alt="Meidy Essence" class="product-img" />
+          <h3>Meidy Essence</h3>
+          <p>RM49.99</p>
+        </div>
+        <div class="product">
+          <img src="images/pocket_perfume_men.jpg" alt="Pocket Perfume Men" class="product-img" />
+          <h3>Pocket Perfume</h3>
+          <p>RM24.99</p>
+        </div>
+        <div class="product">
+          <img src="images/combo-men.jpg" alt="Combo Men" class="product-img" />
+          <h3>Combo Men</h3>
+          <p>RM90.00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perfume Women -->
+    <section>
+      <h2 class="category-title">Perfume Women</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="images/nel's-essence.jpg" alt="Nel's Essence" class="product-img" />
+          <h3>Nel's Essence</h3>
+          <p>RM49.99</p>
+        </div>
+        <div class="product">
+          <img src="images/pocket_wanita.jpg" alt="Pocket Perfume Wanita" class="product-img" />
+          <h3>Pocket Perfume</h3>
+          <p>RM24.99</p>
+        </div>
+        <div class="product">
+          <img src="images/combo-women.png" alt="Combo Women" class="product-img" />
+          <h3>Combo Wanita</h3>
+          <p>RM90.00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Combo MIX -->
+    <section>
+      <h2 class="category-title">Combo MIX</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="images/combo-mix.jpg" alt="Combo Mix" class="product-img" />
+          <h3>Combo Mix</h3>
+          <p>RM90.00</p>
+        </div>
+        <div class="product">
+          <img src="images/combo-4-mix.jpg" alt="Combo 4 Mix" class="product-img" />
+          <h3>Combo 4 Mix</h3>
+          <p>RM130.00</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 M&N Essence. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
