@@ -8,7 +8,7 @@ M&N-Essence/
 │   ├── combo-men.jpg
 │   ├── nels-essence.jpg
 │   ├── pocket_women.jpg
-│   ├── combo_women.png
+│   ├── combo-women.PNG
 │   ├── combo-mix.jpg
 │   └── combo-4-mix.jpg
 └── .nojekyll
