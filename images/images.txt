@@ -3,7 +3,7 @@ M&N-Essence/
 ├── index.html
 ├── images/
 │   ├── logo.png
-│   ├── meidy-essence.jpg
+│   ├── meidy_essence.jpg
 │   ├── pocket_perfume_men.jpg
 │   ├── combo-men.jpg
 │   ├── nels-essence.jpg
