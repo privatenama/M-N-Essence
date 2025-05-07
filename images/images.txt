@@ -3,12 +3,12 @@ M&N-Essence/
 ├── index.html
 ├── images/
 │   ├── logo.png
-│   ├── meidy_essence.jpg
+│   ├── meidy-essence.jpg
 │   ├── pocket_perfume_men.jpg
 │   ├── combo-men.jpg
 │   ├── nels-essence.jpg
 │   ├── pocket_women.jpg
-│   ├── combo-women.png
+│   ├── combo_women.png
 │   ├── combo-mix.jpg
 │   └── combo-4-mix.jpg
 └── .nojekyll
